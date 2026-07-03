@@ -1,6 +1,6 @@
 # Restroom Report — Legal & Support Site
 
-This repository hosts the public legal and support pages for the **Restroom Report** iOS app, served via **GitHub Pages** at **https://restroomreport.app**.
+This repository hosts the public legal and support pages for the **Restroom Report** iOS app, served via **GitHub Pages** at **https://truesolutionsllc.github.io/RestroomReport-Site/**.
 
 ## Pages
 
