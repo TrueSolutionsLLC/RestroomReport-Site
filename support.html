@@ -1,0 +1,243 @@
+<!-- Served at: https://restroomreport.app/support -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Restroom Report</title>
+  <meta name="description" content="Restroom Report support: contact info, troubleshooting, location and camera permission help, sign in help, reporting station data, and data deletion.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand"><a href="index.html">Restroom Report</a></h1>
+      <p class="tagline">Know Before You Go.</p>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="content">
+      <h1>Restroom Report Support</h1>
+
+      <p>Help for travelers and testers using Restroom Report.</p>
+
+      <hr>
+
+      <h2>Contact</h2>
+
+      <p><strong>Email:</strong> <a href="mailto:support@restroomreport.app">support@restroomreport.app</a> <em>(placeholder — replace before public launch)</em></p>
+
+      <p><strong>Response time:</strong> We aim to reply within <strong>2–3 business days</strong>.</p>
+
+      <p>When contacting support, include:</p>
+
+      <ul>
+        <li>Your iOS version (e.g., iOS 18.2)</li>
+        <li>Restroom Report version (Profile → Settings, or iOS Settings → Restroom Report)</li>
+        <li>A short description of the issue</li>
+        <li>Screenshots if helpful</li>
+      </ul>
+
+      <hr>
+
+      <h2>Common Troubleshooting</h2>
+
+      <h3>App won’t load stations</h3>
+
+      <ol>
+        <li>Check your internet connection (Wi‑Fi or cellular).</li>
+        <li>If you recently installed the app <strong>without</strong> Firebase configured, you will see <strong>sample St. Louis area stations</strong> — this is expected in development builds.</li>
+        <li>Force-quit and reopen the app.</li>
+        <li>If the problem persists, email support with your location (city/state) and a screenshot of the map.</li>
+      </ol>
+
+      <h3>Reviews not appearing after submit</h3>
+
+      <ol>
+        <li>Confirm you completed the full review flow and saw the success message.</li>
+        <li>Pull to refresh or revisit the station detail page.</li>
+        <li>In offline mode, reviews may queue until connectivity returns.</li>
+        <li>Guest reviews are tied to your device session — reinstalling the app may start a new guest session.</li>
+      </ol>
+
+      <h3>Photos not uploading</h3>
+
+      <ol>
+        <li>Check <strong>Settings → Restroom Report → Photos</strong> — allow access.</li>
+        <li>Large photos may take longer on slow connections.</li>
+        <li>Firebase Storage must be enabled in the production Firebase project.</li>
+      </ol>
+
+      <h3>App crashes or freezes</h3>
+
+      <ol>
+        <li>Update to the latest Restroom Report build from TestFlight or the App Store.</li>
+        <li>Restart your iPhone.</li>
+        <li>Ensure you have at least 500 MB free storage.</li>
+        <li>If crashes continue, leave <strong>Share Crash Reports</strong> enabled (Profile → Settings) and email support.</li>
+      </ol>
+
+      <hr>
+
+      <h2>Location Permission Help</h2>
+
+      <p>Restroom Report uses location <strong>only while you are using the app</strong> to find nearby gas stations and truck stops.</p>
+
+      <p><strong>To enable:</strong></p>
+      <ol>
+        <li>Open <strong>Settings → Privacy &amp; Security → Location Services</strong></li>
+        <li>Tap <strong>Restroom Report</strong></li>
+        <li>Select <strong>While Using the App</strong></li>
+      </ol>
+
+      <p><strong>If you denied permission:</strong></p>
+      <ul>
+        <li>A banner appears in the app explaining that location helps find nearby stops.</li>
+        <li>The map centers on a default region; you can still browse stations and use all review features.</li>
+        <li>Tap <strong>Open Settings</strong> on the banner (if shown) to change the permission.</li>
+      </ul>
+
+      <p>Restroom Report does <strong>not</strong> track your location in the background.</p>
+
+      <hr>
+
+      <h2>Photo and Camera Permission Help</h2>
+
+      <p><strong>Photo library</strong> — needed to attach existing photos to reviews.</p>
+
+      <p><strong>Camera</strong> — needed to take new restroom photos on a physical device.</p>
+
+      <p><strong>To enable:</strong></p>
+      <ol>
+        <li>Open <strong>Settings → Restroom Report</strong></li>
+        <li>Enable <strong>Photos</strong> and/or <strong>Camera</strong></li>
+      </ol>
+
+      <p>On the <strong>simulator</strong>, camera capture shows a placeholder message — use <strong>Choose Photos</strong> instead.</p>
+
+      <hr>
+
+      <h2>Sign In Help</h2>
+
+      <h3>Sign in with Apple</h3>
+
+      <ol>
+        <li>Tap <strong>Sign in with Apple</strong> on the welcome screen.</li>
+        <li>Choose whether to share or hide your email (either works).</li>
+        <li>Complete Face ID, Touch ID, or passcode.</li>
+      </ol>
+
+      <p>If Sign in with Apple fails:</p>
+
+      <ul>
+        <li>Confirm you are signed into iCloud on your device.</li>
+        <li>Check <strong>Settings → [Your Name] → Sign-In &amp; Security</strong>.</li>
+        <li>Try again on a stable network.</li>
+      </ul>
+
+      <h3>Guest mode</h3>
+
+      <p>Tap <strong>Continue as Guest</strong> to browse and submit reviews without an Apple ID. Guest data is linked to an anonymous session and may not transfer if you delete the app or switch devices.</p>
+
+      <p>For a persistent identity across devices, use <strong>Sign in with Apple</strong>.</p>
+
+      <h3>Sign out</h3>
+
+      <p><strong>Profile → Log Out</strong> returns you to the sign-in screen. Your reviews remain associated with your account in our backend.</p>
+
+      <hr>
+
+      <h2>Reporting Incorrect Station Information</h2>
+
+      <p>Station data comes from community reviews and seeded/imported records. To report a problem:</p>
+
+      <ol>
+        <li>Open the <strong>station detail</strong> page.</li>
+        <li>Tap <strong>Report</strong> (Report Issue).</li>
+        <li>Describe what is wrong (wrong location, closed restroom, safety concern, etc.).</li>
+      </ol>
+
+      <p>Or email <strong><a href="mailto:support@restroomreport.app">support@restroomreport.app</a></strong> with:</p>
+
+      <ul>
+        <li>Station name and address (if known)</li>
+        <li>What is incorrect</li>
+        <li>Screenshots</li>
+      </ul>
+
+      <p>We review reports in good faith but cannot guarantee immediate updates.</p>
+
+      <hr>
+
+      <h2>Requesting Account or Data Deletion</h2>
+
+      <p>To delete your account and associated personal data:</p>
+
+      <ol>
+        <li>Email <strong><a href="mailto:support@restroomreport.app">support@restroomreport.app</a></strong> with subject <strong>“Data Deletion Request”</strong></li>
+        <li>Include the email linked to Sign in with Apple (if used)</li>
+        <li>We will confirm and process eligible deletion within <strong>30 days</strong></li>
+      </ol>
+
+      <p>See the <a href="privacy.html">Privacy Policy</a> for full details.</p>
+
+      <p>You can also:</p>
+
+      <ul>
+        <li><strong>Sign out</strong> in Profile</li>
+        <li><strong>Delete the app</strong> from your device</li>
+        <li><strong>Revoke</strong> location, photo, and camera permissions in iOS Settings</li>
+      </ul>
+
+      <hr>
+
+      <h2>Privacy and Analytics Preferences</h2>
+
+      <ul>
+        <li><strong>Profile → Settings</strong> — toggle analytics and crash reporting</li>
+        <li><strong>iOS Settings → Restroom Report</strong> — same toggles via Settings bundle</li>
+      </ul>
+
+      <hr>
+
+      <h2>TestFlight Testers</h2>
+
+      <p>If you are on a TestFlight build:</p>
+
+      <ul>
+        <li>Report bugs via <strong>TestFlight → Send Beta Feedback</strong> or email support</li>
+        <li>Note the build number from Profile → Settings</li>
+        <li>Use <code>TESTFLIGHT_QA_CHECKLIST.md</code> for structured testing</li>
+      </ul>
+
+      <hr>
+
+      <p><em>Milestone 11 — Support documentation. Host this content at your Support URL before App Store submission.</em></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </nav>
+      <p>Contact: <a href="mailto:support@restroomreport.app">support@restroomreport.app</a></p>
+      <p class="updated">Last updated: July 3, 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
